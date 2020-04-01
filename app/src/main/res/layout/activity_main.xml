@@ -9,10 +9,11 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="354dp"
-        android:background="#000000"
+        android:background="@color/CIERNA"
         android:visibility="visible"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="102dp">
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints">
 
         <TableRow
             android:layout_width="match_parent"
@@ -22,24 +23,30 @@
 
             <Button
                 android:id="@+id/button_1.1"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0.33"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="@color/BIELA"
+                android:visibility="visible" />
 
             <Button
                 android:id="@+id/button_1.2"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0.33"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="@color/BIELA"
+                android:visibility="visible" />
 
             <Button
                 android:id="@+id/button_1.3"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0.33"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="@color/BIELA"
+                android:visibility="visible" />
         </TableRow>
 
         <TableRow
@@ -49,24 +56,30 @@
 
             <Button
                 android:id="@+id/button_2.1"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0.33"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="@color/BIELA"
+                android:visibility="visible" />
 
             <Button
                 android:id="@+id/button_2.2"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0.33"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="@color/BIELA"
+                android:visibility="visible" />
 
             <Button
                 android:id="@+id/button_2.3"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0.33"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="@color/BIELA"
+                android:visibility="visible" />
         </TableRow>
 
         <TableRow
@@ -76,24 +89,30 @@
 
             <Button
                 android:id="@+id/button_3.1"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0.33"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="@color/BIELA"
+                android:visibility="visible" />
 
             <Button
                 android:id="@+id/button_3.2"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0.33"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="@color/BIELA"
+                android:visibility="visible" />
 
             <Button
                 android:id="@+id/button_3.3"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0.33"
-                android:backgroundTint="#FFFFFF" />
+                android:backgroundTint="@color/BIELA"
+                android:visibility="visible" />
         </TableRow>
 
     </TableLayout>
