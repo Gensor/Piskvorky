@@ -90,8 +90,7 @@ public class Hra extends AppCompatActivity implements View.OnClickListener{
             int skore=prvy_hrac.getSkore()+1;
             prvy_hrac.setSkore(skore);
             skore_prveho.setText(" "+skore);
-        }else
-        {
+        }else{
             int skore = druhy_hrac.getSkore()+1;
             druhy_hrac.setSkore(skore);
             skore_druheho.setText(skore+" ");
