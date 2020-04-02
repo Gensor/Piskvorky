@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Hra">
+
+    <TextView
+        android:id="@+id/textVieW_na_rade_je_hrac_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textVieW_na_rade_je_hrac" />
+
+    <TextView
+        android:id="@+id/textView_hrac_na_rade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="354dp"
+        android:background="@color/CIERNA"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button_0.0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:backgroundTint="@color/BIELA"
+                android:scaleType="fitXY"
+                android:src="@drawable/nic"/>
+
+            <ImageButton
+                android:id="@+id/button_0.1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:backgroundTint="@color/BIELA"
+                android:scaleType="fitXY"
+                android:src="@drawable/nic"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/button_0.2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:backgroundTint="@color/BIELA"
+                android:scaleType="fitXY"
+                android:src="@drawable/nic"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33">
+
+            <ImageButton
+                android:id="@+id/button_1.0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:backgroundTint="@color/BIELA"
+                android:scaleType="fitXY"
+                android:src="@drawable/nic"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/button_1.1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:backgroundTint="@color/BIELA"
+                android:scaleType="fitXY"
+                android:src="@drawable/nic"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/button_1.2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:backgroundTint="@color/BIELA"
+                android:scaleType="fitXY"
+                android:src="@drawable/nic"
+                android:visibility="visible"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33">
+
+
+            <ImageButton
+                android:id="@+id/button_2.0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:backgroundTint="@color/BIELA"
+                android:scaleType="fitXY"
+                android:src="@drawable/nic" />
+
+            <ImageButton
+                android:id="@+id/button_2.1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:backgroundTint="@color/BIELA"
+                android:scaleType="fitXY"
+                android:src="@drawable/nic" />
+
+            <ImageButton
+                android:id="@+id/button_2.2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                android:backgroundTint="@color/BIELA"
+                android:scaleType="fitXY"
+                android:src="@drawable/nic"
+                 />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_nova_hra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_nova_hra"
+        android:onClick="vratSaNaUvod"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView_meno_prveho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/CERVENA"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView_skore_prveho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView_dvojbotka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView_skore_druheho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView_meno_druheho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/MODRA"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

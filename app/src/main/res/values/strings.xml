@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Piskvorky</string>
+    <string name="hint_meno_hraca">meno</string>
+    <string name="hrac2_textView">hrac 2:</string>
+    <string name="hrac1_textView">hrac 1:</string>
+    <string name="button_nova_hra">nova hra</string>
+    <string name="textView_meno_hraca">zadaj meno hraca:</string>
+    <string name="textVieW_na_rade_je_hrac">na rade je hrac:</string>
 </resources>

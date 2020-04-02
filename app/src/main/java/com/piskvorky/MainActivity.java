@@ -2,7 +2,10 @@ package com.piskvorky;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,10 +13,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //TODO: vytvor classu hra
-        //TODO: pole pre tlacidla {0 -prazdne ,-1 je {X}, 1 je {O}
-        //TODO: boolean jeVytaz metodu na overenie vysledku diagonalne,horizontalne,vertikalne ci je z toho nieco -3 alebo 3
-        //TODO: vypis kto vyhral a resetni hracie pole
-        //TODO: tlacidlo na novu hru
+    }
+
+    public void novaHra(View view) {
+        EditText prve_meno = findViewById(R.id.editText_meno_prveho);
+        EditText druhe_meno = findViewById(R.id.editText_meno_druheho);
+        Intent intent = new Intent(view.getContext(),Hra.class);
+        intent.putExtra("meno_prveho",prve_meno.getText().toString());
+        intent.putExtra("meno_druheho",druhe_meno.getText().toString());
+        startActivity(intent);
     }
 }

@@ -3,6 +3,7 @@ package com.piskvorky;
 public class Hrac {
     private String meno;
     private int skore = 0;
+    private int znak =0;
 
     Hrac(String meno){
         this.meno=meno;
@@ -22,5 +23,13 @@ public class Hrac {
 
     public void setSkore(int skore) {
         this.skore = skore;
+    }
+
+    public int getZnak() {
+        return znak;
+    }
+
+    public void setZnak(int znak) {
+        this.znak = znak;
     }
 }
