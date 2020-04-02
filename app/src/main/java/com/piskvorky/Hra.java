@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Hra extends AppCompatActivity implements View.OnClickListener{
 
@@ -146,6 +147,7 @@ public class Hra extends AppCompatActivity implements View.OnClickListener{
                 }
             }
             if(sum==9){
+                Toast.makeText(getApplicationContext(),"REMIZA", Toast.LENGTH_SHORT).show();
                 naplnPoleTlacidlami();
             }
             return false;
